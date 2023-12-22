@@ -37,12 +37,13 @@
               <p>I am a Postdoctoral fellow at the Division of <a href="https://www.kth.se/is/rpl">Robotics, Perception and Learning</a>, at <a href="https://www.kth.se/en">KTH Royal Institute of Technology</a>, where I work on multimodal representation learning and reinforcement learning. My postdoctoral advisor is <a href="https://www.csc.kth.se/~danik/">Danica Kragic</a>.
               </p>
               <p>
-                I am a former Game AI research intern at <a href="https://ai.sony/">Sony AI</a> and a <a href="https://sites.google.com/view/rsspioneers2021/home">RSS Pioneer</a>. I am also the co-creator of the <a href="https://talking-robotics.github.io/">Talking Robotics</a> podcast.
+                I am a former intern at <a href="https://ai.sony/">Sony AI</a> and a <a href="https://sites.google.com/view/rsspioneers2021/home">RSS Pioneer</a>. I am also the co-creator of the <a href="https://talking-robotics.github.io/">Talking Robotics</a> podcast.
               </p>
               <p>
-                I have a Summa Cum Laude PhD in Computer Science from <a href="https://tecnico.ulisboa.pt/en/">Tecnico, University of Lisbon</a>, where I was supervised by <a href="https://ana-paiva.com/">Ana Paiva</a> and <a href="https://gaips.inesc-id.pt/~fmelo/">Francisco S. Melo</a>. I have an MS in Engineering Physics from <a href="https://tecnico.ulisboa.pt/en/">Tecnico, University of Lisbon</a>.
+                I have a PhD in Computer Science from <a href="https://tecnico.ulisboa.pt/en/">Tecnico, University of Lisbon</a>, where I was supervised by <a href="https://ana-paiva.com/">Ana Paiva</a> and <a href="https://gaips.inesc-id.pt/~fmelo/">Francisco S. Melo</a>. I have an MSc and BSc in Engineering Physics from <a href="https://tecnico.ulisboa.pt/en/">Tecnico, University of Lisbon</a>.
               </p>
               <p style="text-align:center">
+                <a target="_blank" href="https://drive.google.com/file/d/1-J8b_dTA1nr6tiwUqoKg65ageqAgDW65/view?usp=drive_link"> CV</a> &nbsp;/&nbsp;
                 <a target="_blank" href="https://mailhide.io/e/eGO3lsc8"> Email</a> &nbsp;/&nbsp;
                 <a href="https://github.com/miguelsvasco">GitHub</a> &nbsp;/&nbsp;
                 <a href="https://scholar.google.com/citations?user=Of2hDmMAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
@@ -50,7 +51,7 @@
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="images/circle_bw_crop.jpg">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/miguel-circle.png">
             </td>
           </tr>
         </table>
@@ -60,7 +61,7 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
-                I'm interested in multimodal representation learning, reinforcement learning and robotics.
+                I'm interested in multimodal representation learning and reinforcement learning. Here you can find some selective publications. For a complete list check out this <a href="https://scholar.google.com/citations?user=Of2hDmMAAAAJ&hl=en">link</a>.
               </p>
             </td>
           </tr>
@@ -84,6 +85,9 @@
               <br>
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
+              {% endif %}
+              {% if post.link %}
+              <a href="{{post.link}}">link</a> /
               {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /
@@ -117,134 +121,140 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Intel Projects</h2>
-              <p>Besides my work on the RealSense depth sensors and the publications above, a sampling of my publicly disclosed work
+              <h2>Teaching</h2>
+              <p> <a href="https://www.kth.se/student/kurser/kurs/FDD3359?l=en">FDD3359 Reinforcement Learning</a>, KTH Royal Institute of Technology - Spring 2024
+              </p>
+              <p> <a href="https://www.kth.se/kurs-pm/DD2430/DD243020232-1">DD2430 Project Course in Data Science</a>, KTH Royal Institute of Technology - Fall 2023
+              </p>
+              <p> <a href="https://fenix.tecnico.ulisboa.pt/disciplinas/ADI/2021-2022/2-semestre">Planning, Learning and Intelligent Decision-Making</a>, Instituto Superior Técnico, University of Lisbon - Fall 2022, Fall 2021
+              </p>
+              <p> <a href="https://fenix.tecnico.ulisboa.pt/disciplinas/ADI/2021-2022/2-semestre">Computation and Society (AI Ethics)</a>, Instituto Superior Técnico, University of Lisbon - Spring 2019, Spring 2020
               </p>
             </td>
           </tr>
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'Intel' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              <em>{{post.categories}} {{post.course}}</em>
-              <br>
-              {{ post.date | date: "%Y-%m-%d" }}
+<!--          {% for post in site.posts %}-->
+<!--          {% for cat in post.categories %}-->
+<!--          {% if cat == 'Intel' %}-->
+<!--          <tr>-->
+<!--            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">-->
+<!--              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />-->
+<!--            </td>-->
+<!--            <td style="padding:2.5%;width:75%;vertical-align:middle">-->
+<!--              <h3>{{post.title}}</h3>-->
+<!--              <br>-->
+<!--              <em>{{post.categories}} {{post.course}}</em>-->
+<!--              <br>-->
+<!--              {{ post.date | date: "%Y-%m-%d" }}-->
 
-              <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
-              {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
-              {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-        <br>
-        <br>
-        <br>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Other Projects</h2>
-              <p> These include coursework, side projects and unpublished research work. 
-              </p>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+<!--              <br>-->
+<!--              {% if post.website %}-->
+<!--              <a href="{{post.website}}">website</a> /-->
+<!--              {% endif %}-->
+<!--              {% if post.paper %}-->
+<!--              <a href="{{post.paper}}">paper</a> /-->
+<!--              {% endif %}-->
+<!--              {% if post.patent %}-->
+<!--              <a href="{{post.patent}}">patent</a> /-->
+<!--              {% endif %}-->
+<!--              {% if post.patent2 %}-->
+<!--              <a href="{{post.patent2}}">patent #2</a> /-->
+<!--              {% endif %}-->
+<!--              {% if post.patent3 %}-->
+<!--              <a href="{{post.patent3}}">patent #3</a> /-->
+<!--              {% endif %}-->
+<!--              {% if post.video %}-->
+<!--              <a href="{{post.video}}">video</a> /-->
+<!--              {% endif %}-->
+<!--              {% if post.video2 %}-->
+<!--              <a href="{{post.video2}}">video #2</a> /-->
+<!--              {% endif %}-->
+<!--              {% if post.code %}-->
+<!--              <a href="{{post.code}}">code</a> /-->
+<!--              {% endif %}-->
+<!--              {% if post.poster %}-->
+<!--              <a href="{{post.poster}}">poster</a> /-->
+<!--              {% endif %}-->
+<!--              {% if post.slides %}-->
+<!--              <a href="{{post.slides}}">slides</a> /-->
+<!--              {% endif %}-->
+<!--              <p></p>-->
+<!--              {{ post.excerpt }}-->
+<!--            </td>-->
+<!--          </tr>-->
+<!--          {% endif %}-->
+<!--          {% endfor %}-->
+<!--          {% endfor %}-->
+<!--        </table>-->
+<!--        <br>-->
+<!--        <br>-->
+<!--        <br>-->
+<!--        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">-->
+<!--          <tr>-->
+<!--            <td style="padding:2.5%;width:100%;vertical-align:middle">-->
+<!--              <h2>Other Projects</h2>-->
+<!--              <p> These include coursework, side projects and unpublished research work. -->
+<!--              </p>-->
+<!--            </td>-->
+<!--          </tr>-->
+<!--        </table>-->
+<!--        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">-->
 
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat != 'research' and cat != 'Intel' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              <em>{{post.categories}} {{post.course}}</em>
-              <br>
-              {{ post.date | date: "%Y-%m-%d" }}
+<!--          {% for post in site.posts %}-->
+<!--          {% for cat in post.categories %}-->
+<!--          {% if cat != 'research' and cat != 'Intel' %}-->
+<!--          <tr>-->
+<!--            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">-->
+<!--              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />-->
+<!--            </td>-->
+<!--            <td style="padding:2.5%;width:75%;vertical-align:middle">-->
+<!--              <h3>{{post.title}}</h3>-->
+<!--              <br>-->
+<!--              <em>{{post.categories}} {{post.course}}</em>-->
+<!--              <br>-->
+<!--              {{ post.date | date: "%Y-%m-%d" }}-->
 
-              <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
-              {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
-              {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
+<!--              <br>-->
+<!--              {% if post.website %}-->
+<!--              <a href="{{post.website}}">website</a> /-->
+<!--              {% endif %}-->
+<!--              {% if post.paper %}-->
+<!--              <a href="{{post.paper}}">paper</a> /-->
+<!--              {% endif %}-->
+<!--              {% if post.patent %}-->
+<!--              <a href="{{post.patent}}">patent</a> /-->
+<!--              {% endif %}-->
+<!--              {% if post.patent2 %}-->
+<!--              <a href="{{post.patent2}}">patent #2</a> /-->
+<!--              {% endif %}-->
+<!--              {% if post.patent3 %}-->
+<!--              <a href="{{post.patent3}}">patent #3</a> /-->
+<!--              {% endif %}-->
+<!--              {% if post.video %}-->
+<!--              <a href="{{post.video}}">video</a> /-->
+<!--              {% endif %}-->
+<!--              {% if post.video2 %}-->
+<!--              <a href="{{post.video2}}">video #2</a> /-->
+<!--              {% endif %}-->
+<!--              {% if post.code %}-->
+<!--              <a href="{{post.code}}">code</a> /-->
+<!--              {% endif %}-->
+<!--              {% if post.poster %}-->
+<!--              <a href="{{post.poster}}">poster</a> /-->
+<!--              {% endif %}-->
+<!--              {% if post.slides %}-->
+<!--              <a href="{{post.slides}}">slides</a> /-->
+<!--              {% endif %}-->
+<!--              <p></p>-->
+<!--              {{ post.excerpt }}-->
+<!--            </td>-->
+<!--          </tr>-->
+<!--          {% endif %}-->
+<!--          {% endfor %}-->
+<!--          {% endfor %}-->
+<!--        </table>-->
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
