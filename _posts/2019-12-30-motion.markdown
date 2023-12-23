@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learning multimodal representations for sample-efficient recognition of human actions"
+title:  "Learning Multimodal Representations for Sample-efficient Recognition of Human Actions"
 date:   2019-12-31 22:21:59 +00:00
 image: /images/motion.png
 categories: research
