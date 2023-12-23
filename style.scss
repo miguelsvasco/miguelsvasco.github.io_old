@@ -29,46 +29,71 @@ th,
 tr,
 p,
 a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'TeXGyrePagella', Verdana, Helvetica, sans-serif;
   font-size: 14px;
   font-display: auto;
 }
 
 strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'TeXGyrePagella', Verdana, Helvetica, sans-serif;
   font-size: 14px;
   font-display: auto;
 }
 
 h2 {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'TeXGyrePagella', Verdana, Helvetica, sans-serif;
   font-size: 22px;
   font-display: auto;
   font-weight: normal;
   padding: 0px;
   margin: 0px;
-  display:inline; 
+  display:inline;
+  color: #f09228;
 }
 
-h3 {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
+heading2 {
+  font-family: 'TeXGyrePagella', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  font-display: auto;
+  font-weight: normal;
+  text-align: center;
+  display:inline;
+  padding: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 18px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+heading3 {
+  font-family: 'TeXGyrePagella', Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
   font-display: auto;
   padding: 0px;
   margin: 0px;
-  display:inline; 
+  display:inline;
+}
+
+h3 {
+  font-family: 'TeXGyrePagella', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-display: auto;
+  padding: 0px;
+  margin: 0px;
+  display:inline;
 }
 
 h1 {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  //font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family:  "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 32px;
   font-weight: normal;
   font-display: auto;
   text-align: center;
   padding: 0px;
   margin-block-start: 14px;
-  margin-block-end: 14px;
+  margin-block-end: 6px;
   margin-left: 0px;
   margin-right: 0px;
 
