@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "A Super-human Vision-based Reinforcement Learning Agent for Autonomous Racing in Gran Turismo"
+date:   2023-07-01 00:00:01 +00:00
+image: /images/gt-vision-rl.png
+categories: research
+author: "Miguel Vasco"
+authors: "<strong>Miguel Vasco*</strong>, Takuma Seno*, Kenta Kawamoto, Kaushik Subramanian, Peter R Wurman, Peter Stone"
+venue: "arXiv"
+arxiv: https://arxiv.org/abs/2210.06274
+---
+We contribute the first vision-based super-human car racing agent, able to outperform the best human drivers in time-trial races in Gran Turismo 7.
