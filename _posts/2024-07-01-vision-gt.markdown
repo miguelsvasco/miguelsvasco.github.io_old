@@ -2,7 +2,7 @@
 layout: post
 title:  "A Super-human Vision-based Reinforcement Learning Agent for Autonomous Racing in Gran Turismo"
 date:   2024-07-01 00:00:01 +00:00
-image: /images/gmc.png
+image: /images/rlc2024.png
 categories: research
 author: "Miguel Vasco"
 authors: "<strong>Miguel Vasco*</strong>, Takuma Seno*, Kenta Kawamoto, Kaushik Subramanian, Peter R Wurman, Peter Stone"
