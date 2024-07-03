@@ -10,4 +10,4 @@ venue: "Neural Networks (Special Issue on AI and Brain Science: Brain-inspired A
 link: https://www.sciencedirect.com/science/article/pii/S0893608021004470   
 code: https://github.com/miguelsvasco/multimodal-handwritten-digits
 ---
-We investigate the problem of cross-modality inference (CMI) in multimodal generative models and show the potential of considering hierarchical representation spaces. We contribute with a novel multimodal MNIST-like dataset.
+We investigate the problem of cross-modality inference (CMI) in multimodal generative models and show the potential of considering hierarchical representation spaces. We additionally contribute with a novel multimodal benchmark dataset.
