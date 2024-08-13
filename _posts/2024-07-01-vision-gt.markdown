@@ -6,7 +6,7 @@ image: /images/rlc2024.png
 categories: research
 author: "Miguel Vasco"
 authors: "<strong>Miguel Vasco*</strong>, Takuma Seno*, Kenta Kawamoto, Kaushik Subramanian, Peter R Wurman, Peter Stone"
-venue: "RLC <strong>(Outstanding Paper Award)</strong>"
+venue: "Reinforcement Learning Conference (RLC) <strong>- Outstanding Paper Award</strong>"
 link: https://rlj.cs.umass.edu/2024/papers/Paper213.html
 poster: https://drive.google.com/file/d/1Ps2iEVGyGXw4FDu8r0qI5TKrVerXy_A6/view?usp=sharing
 website: https://ai.sony/publications/A-Super-human-Vision-based-Reinforcement-Learning-Agent-for-Autonomous-Racing-in-Gran-Turismo/
