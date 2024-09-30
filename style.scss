@@ -128,3 +128,64 @@ span.highlight {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
 //@import "svg-icons";
+
+/* News section styling */
+.news-section {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.news-heading {
+  padding: 10px 0;
+  text-align: left;
+}
+
+.news-heading h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  color: #f09228;  /* Matching color for headings */
+  font-family: 'TeXGyrePagella', Verdana, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+/* Styling for individual news items */
+.news-items {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  border-spacing: 0 15px;
+}
+
+.news-item {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.news-item h3 a {
+  color: #1772d0;  /* Matches your existing anchor color */
+  text-decoration: none;
+  font-family: 'TeXGyrePagella', Verdana, Helvetica, sans-serif;
+  font-size: 18px;  /* Using the size defined for h3 */
+  font-weight: bold;
+}
+
+.news-item h3 a:hover {
+  color: #f09228;  /* Hover effect to match your existing link hover color */
+  text-decoration: underline;
+}
+
+.news-item em {
+  color: #999;  /* Subtle color for date */
+  font-size: 0.9em;
+  font-family: 'TeXGyrePagella', Verdana, Helvetica, sans-serif;
+}
+
+.news-item p {
+  color: #555;
+  line-height: 1.6;
+  margin-top: 10px;
+  font-family: 'TeXGyrePagella', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
